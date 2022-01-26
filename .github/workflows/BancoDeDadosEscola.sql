@@ -56,8 +56,8 @@ CREATE TABLE Turmas (
   IdProfessor   INT NOT NULL,
   IdCurso       INT NOT NULL,
   IdAluno       INT NOT NULL,
-  Data_inicio   DATE NULL,
-  Data_final    DATE NULL,
+  Data_inicio   DATE    NULL,
+  Data_final    DATE    NULL,
   Carga_horaria SMALLINT UNSIGNED NULL,
  );
 
